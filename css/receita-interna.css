@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'montserrat';
+}
+
+body{
+    background: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: #ffc107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#img-banner{
+    padding: 15px 0px 15px 0px;
+}
+
+nav {
+    display: flex;
+    background-color: #ffa000;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 29px 5px 29px;
+}
+
+nav ul li a{
+    color: #fdfdfd;
+}
+
+section{
+    display: flex;
+    padding: 100px 190px 150px 190px;
+}
+
+section article h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #ffa000;
+    padding: 0px 0px 28px 0px;
+}
+
+section article img{
+    padding: 0px 0px 25px 0px;
+}
+
+section article ul{
+    display: flex;
+}
+
+section article ul li{
+    font-size: 18px;
+    font-weight: 600;
+    color: #176902;
+    border: 1px solid #176902;
+    border-radius: 47px;
+    padding: 7px 20px 7px 20px;
+    margin: 0px 19px 58px 0px;
+}
+
+section article iframe{
+    margin: 35px 0px 35px 0px;
+}
+
+section article p{
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 600px;
+}
+
+section article p strong{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+section aside{
+    margin: 80px 0px 0px 190px;
+}
+
+section aside h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #ffa000;
+    padding: 0px 0px 27px 0px;
+}
+
+section aside div{
+    margin: 0px 0px 50px 0px;
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section aside p{
+    font-size: 26px;
+    font-weight: 600;
+    margin: -4px 0px 0px 0px;
+    padding: 20px 0px 20px 0px;
+}
+
+footer{
+    display: flex;
+    background-color: #ffc107;
+    align-items: center;
+}
+
+#img-footer{
+    padding: 15px 38px 15px 5px;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+

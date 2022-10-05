@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    background-color: #FFC107;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#img-banner{
+    padding: 15px 0px 15px 0px;
+}
+
+nav{
+    display: flex;
+    background-color: #FFA000;
+    justify-content: center;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 29px 5px 29px;
+}
+
+nav ul li a{
+    color: #FDFDFD;
+}
+
+.sec-img{
+    display: flex;
+}
+
+.sec-img img{
+    position: relative;
+    width: 100%;
+}
+
+.sec-img h1{
+    position: absolute  ;
+    font-size: 70px;
+    font-weight: 700;
+    color: #FFFFFF;
+    z-index: 1;
+    width: 419px;
+    margin: 50px 0px 0px 120px;
+}
+
+.sec-contato{
+    padding: 150px;
+    display: flex;
+}
+
+.sec-contato form{
+    width: 820px;
+    height: 766px;
+    border: 1px solid #FFA000;
+    border-radius: 20px;
+    margin: 0px 0px 0px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 30px 60px 30px;
+}
+
+.sec-contato form label{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #FFC107;
+    align-self: flex-start;
+    margin: 0px 0px 80px 0px;
+}
+
+.sec-contato form input{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    width: 750px;
+    padding: 15px 30px 15px 30px;
+    margin: 0px 0px 20px 0px;
+}
+
+.sec-contato form textarea{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #58555D;
+    border: 1px solid #FFA000;
+    border-radius: 7px;
+    width: 750px;
+    padding: 15px 30px 200px 30px;
+    margin: 0px 0px 20px 0px;
+    resize: none;
+}
+
+.sec-contato form #submit{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 800px;
+    color: #FFFFFF;
+    background: #FFC107;
+    border-radius: 50px;
+    width: 170px;
+    align-self: flex-start;
+}
+
+footer{
+    display: flex;
+    background-color: #FFC107;
+    align-items: center;
+}
+
+#img-footer{
+    padding: 15px 38px 15px 5px;
+}
+
+footer p{
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
